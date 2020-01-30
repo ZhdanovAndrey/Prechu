@@ -1,0 +1,17 @@
+.list {
+	list-style-type: none;
+	padding-left: : 0;
+	text-align: left;
+	line-height: 36px;
+}
+
+
+@media (min-width: 960px) {
+    .list {
+    	font-size: 15px;
+        font-weight: 300;
+        line-height: 36px;
+    }
+
+
+}

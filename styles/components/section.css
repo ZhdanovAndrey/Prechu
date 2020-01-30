@@ -1,0 +1,73 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+.section {
+  position: relative;
+  padding: 100px 0;
+}
+
+.section-title {
+}
+.section-subtitle {
+}
+.section-description {
+}
+
+
+.section-contary{
+	margin-top: 40px;
+}
+
+
+
+.section-shopping-title{
+	height: 42px;
+    color: #6f7173;
+    font-size: 42px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.section-shopping img{
+	height: 180px;
+    width: auto;
+    margin-top: 36px;
+}
+
+.section-shopping-subtitle{
+	color: #6f7173;
+    font-size: 34px;
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 35px;
+}
+
+.footer-description{
+	margin-bottom: 25px;
+}
+
+
+@media (min-width: 960px) {
+    .section-shopping{
+    	margin-top: 90px;
+    }
+
+    .section-shopping-subtitle{
+    	font-size: 26px;
+        font-weight: 400;
+        line-height: 44.42px;
+        margin-top: 50px;
+    }
+
+    .section-shopping img{
+    	height: 270px;
+    	margin-left: -15px;
+    }
+
+    .section-shopping-title{
+    	font-size: 40px;
+        font-weight: 400;
+        line-height: 44.42px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,85 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+html {
+  color: #909090;
+  font-family: "Segoe WPN";
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 36px;
+  text-align: center;
+}
+
+.container {
+  max-width: 900px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  position: relative;
+  overflow: hidden;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+p,
+ul,
+ol {
+  margin: 0 0 15px 0;
+}
+
+* + p,
+* + ul,
+* + ol {
+  margin-top: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 0.67em 0;
+}
+
+* + h1,
+* + h2,
+* + h3,
+* + h4,
+* + h5,
+* + h6 {
+  margin-top: 0.67em;
+}
+
+
+.underline{
+  height: 2px;
+  background-color: #909090;
+  border-top: solid #909090 2px;
+  margin: 40px 0;
+
+}

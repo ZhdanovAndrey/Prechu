@@ -1,0 +1,46 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+.grid-wrapper {
+  overflow: hidden;
+}
+.grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+ 
+}
+.grid-item {
+  
+}
+
+.grid-large {
+  margin: 0 -10px;
+}
+.grid-large .grid-item {
+  padding: 0 10px;
+}
+
+.grid-medium {
+  margin: 0 -40px;
+}
+.grid-medium .grid-item {
+  padding: 0 40px;
+}
+
+
+.grid-small {
+  margin: 0 -40px;
+}
+.grid-small .grid-item {
+  padding: 0 40px;
+}
+
+
+.grid-micro {
+  margin: 0 -33px;
+}
+.grid-micro .grid-item {
+  padding: 0 33px;
+}
